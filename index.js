@@ -5,7 +5,7 @@ const app = express();
 app.get("/", (req, res) => {
   res.json({ success: "aws testing done by sameer" });
 });
-app.get("/Nancy", (req, res) => {
+app.get("nancy", (req, res) => {
   res.json({ success: "Love you nancy" });
 });
 
