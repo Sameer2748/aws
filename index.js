@@ -2,7 +2,7 @@ const express = require("express");
 
 const app = express();
 
-app.get("/sameer", (req, res) => {
+app.get("/", (req, res) => {
   res.json({ success: "aws testing done by sameer" });
 });
 
